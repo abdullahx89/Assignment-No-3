@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <style>
+        #pos{
+            position: relative;
+            left: 60px;
+        }
+        .qua{
+           position: relative;
+           right: 10px;
+          
+        }
+       
+        
+        .table tr td{
+
+padding: 5px;
+font-size: 16px;
+font-stretch: 100%;
+font-weight: 400;
+vertical-align: baseline;
+margin: 0px;
+        }
+        .bold{
+            
+            text-align: center;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index.html"><img src="./images/previous.png" height="64px" width="64px"></a>
+    <center>
+        <img src="./images/logo.png" width="200px" height="200px">
+        <h2>STUDENT REGISTRATION FORM</h2>
+        <br>
+
+    </center>
+    <center></center>
+    <div class="center">
+        <form>
+            <!-- <label for="fn">FIRST NAME</label>
+        <input type="text" id="fn"> -->
+            <label for="firstName">FIRST NAME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; </label>
+            <input type="text" id="firstName" placeholder="Enter the First Name" style="margin-left: 20px;">&nbsp; <b>(max 30 characters a-z and A-Z)</b>
+            <br>
+            <br>
+            <label for="lastName" style="margin-right: 3px;">LAST NAME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; </label>
+            <input type="text" id="lastName" placeholder="Enter the Last Name" style="margin-left: 20px;"> <b> &nbsp;(max 30 characters a-z and A-Z)</b>
+            <br>
+            <br>
+            <label for="dob" style="margin-right: 41px;">DATE OF BIRTH &nbsp; &nbsp; &nbsp;</label>
+            <input type="date" id="dob" style="margin-left: 20px;">
+            <br>
+            <br>
+            <label for="email" style="margin-right: 85px;">EMAIL ID &nbsp; &nbsp; &nbsp;</label>
+            <input type="email" id="email" placeholder="Enter the Email Address" style="margin-left: 20px;">
+            <br>
+            <br>
+            <label for="mobileno" style="margin-right: 22px;">MOBILE NUMBER &nbsp; &nbsp; &nbsp;</label>
+            <input type="text" id="mobileno" placeholder="Enter the Mobile Number" style="margin-left: 20px;">&nbsp; <b>(10 Digit Number)</b>
+            <br>
+            <br>
+            <label>GENDER</label>
+            <label for="m" style="margin-left: 136px;">Male</label>
+            <input type="radio" name="gender" id="m" >
+            <label for="f" >Female</label>
+            <input type="radio" name="gender" id="f" >
+            <br>
+            <br>
+            <label style="position: absolute;">ADDRESS</label>
+            <textarea style="margin-left: 205px; margin-top: 3px; padding: 30px;"></textarea>
+            <br>
+            <br>
+            <label for="city" style="margin-right: 138px;">CITY</label>
+            <input type="text" id="city" placeholder="Enter the City Name" style="margin-left: 25px;" > (max 30 characters a-z and A-Z)
+            <br>
+            <br>
+            <label for="pin" style="margin-right: 101px;">PIN CODE</label>
+            <input type="text" id="pin" style="margin-left: 25px;" placeholder="Enter the Pin Code"> (6 Digits Numbers)
+            <br>
+            <br>
+            <label for="state" style="margin-right: 128px;">STATE</label>
+            <input type="text" id="state" style="margin-left: 25px;" placeholder="Enter the State"> (max 30 characters a-z and A-Z)
+            <br>
+            <br>
+            <label for="con" style="margin-right: 98px;">COUNTRY</label>
+            <input type="text" id="con" style="margin-left: 25px;" placeholder="Enter the Country Name">
+            <br>
+            <br>
+            <label style="margin-right: 130px;">HOBBIES</label>
+            <label for="Dra">Drawing</label>
+            <input type="checkbox" name="" id="Dra">
+            <label for="sin">Singing</label>
+            <input type="checkbox" name="" id="sin">
+            <label for="Dan">Dancing</label>
+            <input type="checkbox" name="" id="Dan">
+            <label for="ske">Sketching</label>
+            <input type="checkbox" name="" id="ske"><br>
+            <label for="oth" style=" margin-left: 202px;">Others</label>
+            <input type="checkbox" name="" id="oth">
+            <input type="text">
+            <br>
+            <br>
+            <table cellpadding="10" class="table">
+                <tr>
+                    <td class="qua">QUALIFICATION</td>
+                    
+                    <td class="bold" id="pos"><b> SI.NO.</b></td>
+                    <td class="bold" id="pos"><b>Examination</b></td>
+                    <td class="bold" id="pos"><b>Board</b> </td>
+                    <td class="bold" id="pos"><b>Percentage</b> </td>
+                    <td class="bold" id="pos"><b>Year of passing</b></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="pos">1</td>
+                    <td id="pos">Class X</td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="pos">2</td>
+                    <td id="pos">Class XII</td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="pos">3</td>
+                    <td id="pos"> Graduation</td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="pos">4</td>
+                    <td id="pos" > Master</td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                    <td id="pos"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pos" style="text-align: center;">(10 char max)</td>
+                    <td id="pos" style="text-align: center;">upto 2 decimal</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <label for="Cour" >COURSES <br>APPLIED FOR</label>
+            <select style="margin-left: 95px;">
+               <option> Select any Course</option>
+               <option value="BCA">BCA</option>
+               <option value="B.A">B.A</option>
+               <option value="B.SC">B.SC</option>
+               <option value="B.COM">B.COM</option>
+            </select>
+ <br>
+ <br>
+ <label for="up">Upload you pic <br>
+    (only .png,.jpg,.jpeg formats allow)</label>
+    <input type="file" id="up">
+ 
+   
+            </form>
+        </div>
+            <br>
+            <br>
+            <br>
+            <center>
+                <input style="text-align: center;" type="submit" name="" id="">
+                <input style="text-align: center;" type="reset" name="" id="">
+             </center>
+    <br>
+    <br>
+    <br>
+    
+</body>
+
+</html>
